@@ -1,0 +1,1215 @@
+
+body{
+    color: rgb(240, 248, 255);
+    /* color: yellow; */
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+.middle {
+    display: block;
+    width: 80%;
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 1rem;
+    /* background-color: red; */
+}
+
+.principal-message {
+    /* height: 40vh; */
+    height: fit-content;
+    background: rgb(78, 109, 180);
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .principal-message {
+        flex-direction: column;
+    }
+
+    .principal-image {
+        margin-top: 2rem;
+    }
+}
+
+.principal-message{
+    background-color: rgb(1, 28, 90);
+}
+.principal-image-box{
+    text-align: center;
+    color: yellow;
+}
+.principal-image {
+    height: 30vh;
+    border: 0.14rem solid yellow;
+    border-radius: 50%;
+    aspect-ratio: 14.81 / 14.97;
+}
+
+.principal-message-text {
+    /* color: black; */
+    color: yellow;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.principal-message-head {
+    margin: 2rem;
+    text-align: center;
+}
+
+.staffs {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.individual-staff {
+    margin: 1rem;
+    /* background-color: #eee9aa; */
+    /* background: #ece5c5; */
+    /* background-color: rgb(189, 189, 90); */
+    /* color: rgb(66, 66, 165); */
+    color: whitesmoke;
+    width: fit-content;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+
+.individual-staff a{
+    /* text-decoration: none; */
+    color: wheat;
+}
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.visions {
+    background-color: rgb(108, 108, 216);
+    color: black;
+}
+
+.visions-point {
+    margin-left: 1rem;
+    color: wheat;
+    border-left: 1px solid wheat;
+    /* border-top: 1px solid; */
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.visions-point::before {
+    content: "";
+    border: 0.5rem solid wheat;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.5rem;
+    /* z-index: 1; */
+}
+
+.vision-head {
+    width: fit-content;
+    color: wheat;
+    border-bottom: 1px solid wheat;
+    padding: 0.2rem 0.4rem;
+    padding-bottom: 0;
+}
+
+body {
+    color: yellow;
+}
+
+.watermark {
+    background-image: url('../pictures/logo_saraswati-niketan.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+.gender-select {
+    margin: 1.4rem 0;
+}
+
+input#student-name,
+#date-of-birth,
+#nationality,
+#previous-school,
+#father-name,
+#father-contact,
+#mother-name,
+#mother-contact,
+#guardian-name,
+#guardian-contact,
+#guardian-relation {
+    opacity: 0.9;
+    height: 2.03rem;
+    margin-bottom: 1.04rem;
+}
+
+#other-information {
+    margin-bottom: 1rem;
+}
+
+select#blood,
+#religion,
+#admission-for {
+    opacity: 0.9;
+    margin-bottom: 1.04rem;
+    height: 2.03rem;
+}
+
+textarea{
+    opacity: 0.9;
+}
+h2{
+    margin-top: 1rem;
+}
+h2,h5,h6 {
+    text-align: center;
+}
+
+main {
+    max-width: 650px;
+    margin: auto;
+}
+
+label {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+legend {
+    padding: 1.07rem;
+    font-size: 1.3rem;
+}
+
+fieldset {
+    padding: 0 1.06rem;
+    border-color: yellow;
+    display: grid;
+}
+
+.gender-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0;
+}
+
+.gender-label {
+    margin: 0;
+    padding: 0;
+}
+
+.gender-male-female {
+    display: flex;
+    align-items: center;
+}
+
+option {
+    background: aquamarine;
+}
+
+#btn {
+    margin: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 12px;
+    background-color: #000;
+    color: #fffbfb;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: rgb(122, 83, 248);
+    border: 2px solid rgb(206, 206, 141);
+    transition: all 1s;
+}
+
+colour haru milaune baki xa
+
+
+body{
+    font-size: 0.9rem;
+    /* background-color: #8e2de2; */
+}
+.contact-in{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    /* background-color: yellow; */
+    box-shadow: 0px 0px 10px 0px #666 ;
+}
+
+.contact-map{
+   width: 100%;
+   flex: 50%; 
+}
+.contact-map iframe{
+   width: 100%;
+   height: 100%; 
+}
+.contact-form{
+   /* margin: 0.2rem; */
+   padding: 0.4rem;
+   width: 100%;
+   height: auto;
+   flex: 50%; 
+}
+.contact-form h1{
+   color: black;
+margin-bottom: 0.7rem;
+}
+
+.contact-form-txt {
+    width: 100%;
+    height: 2.5rem;
+    color: rgb(0, 0, 0);
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+ }
+ .contact-form-txt::placeholder{
+    color: #aaa;
+ }
+.contact-form-txtarea{
+    width: 100%;
+    height: 9.7em;
+    color: black;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+ }
+ .contact-form-txtarea::placeholder{
+    color: #aaa;
+ }
+
+ .contact-form-btn{
+      width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 50px;
+      background: #8e2de2;
+      color: white;
+      text-transform: uppercase;
+      padding: 0.7rem 0;
+      cursor: pointer;
+      font-size: 1.12rem;
+      /* margin-bottom: 1rem; */
+ }
+ .contact-title{
+   font-size: 2rem;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 1.8rem;
+ }
+ .para{
+   margin: auto;
+   font-size: 0.5em;
+   width: 80vw;
+   padding: 1.2rem;
+ }
+ .content{
+   max-width: 1170px;
+   margin:auto;
+}
+
+@media screen and (max-width: 600px)
+
+
+main{
+    font-size: 1.5rem;
+}
+
+h1{
+     color:rgb(27, 53, 52); 
+    font-family:fantasy;
+    font-weight: 1rem;
+    margin: 0.7rem;
+    text-align: center;
+}
+
+.events1{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+   background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.flex{
+    display: flex;
+
+}
+.abc1{
+    text-align:center;
+     color:  rgb(6, 31, 91);  
+    font-family: cursive;
+}
+.events2{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.flex2{
+    display: flex;
+}
+.abc2{
+    text-align:center;
+     color:  rgb(6, 31, 91); 
+    font-family:cursive;
+}
+.events3{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.flex3{
+    display: flex;
+}
+.abc3{
+    text-align:center;
+     color: rgb(6, 31, 91); 
+    font-family:cursive;
+}
+.events4{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.flex4{
+    display: flex;
+}
+.abc4{
+    text-align:center;
+     color: rgb(6, 31, 91); 
+    font-family: cursive;
+}
+.events5{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.flex5{
+    display: flex;
+}
+.abc5{
+    text-align:center;
+     color: rgb(6, 31, 91); 
+    font-family: cursive;
+}
+.events6{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.flex6{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.abc6{
+    text-align:center;
+     color: rgb(6, 31, 91); 
+    font-family: cursive;
+}
+.events7{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.flex7{
+    display: flex;
+}
+.abc7{
+    text-align:center;
+    color: rgb(6, 31, 91);
+    font-family: cursive;
+}
+.events8{
+    border: solid 2px rgb(138, 141, 141);
+    padding: 1rem;
+    background-color:rgb(252 186 99);
+    margin: 1rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.flex8{
+    display:flex;
+}
+.abc8{
+    text-align:center;
+    color: rgb(6, 31, 91);
+    font-family: cursive;
+}
+.picture{
+    height:200px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 20px;
+}
+{
+   .contact-in{
+      flex-direction: column;
+   }
+}
+.web{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.outerbox{
+    background-color: rgb(252 186 99);
+    border-radius: 20px;
+    justify-content: space-between;
+    height: fit-content;
+    width: 400px;
+    border: 2px  solid black;
+    text-align: justify;
+    margin: 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: rgb(82, 75, 75);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.pictures{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin:1rem auto; 
+}
+
+h1{
+    margin: 1rem;
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(2, 37, 58);
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+}
+
+@media screen and(max-width:600px){
+    .web{
+        width:100%;
+    }
+}.footer {
+    background-color: #24262b;
+    padding: 1rem 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+.footer-col {
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 1.13rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.footer-col ul li a:hover {
+    transition: all 0.3s ease;
+    color: #ffffff;
+    padding-left: 0.8rem;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 3rem;
+    margin: 0 1rem;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+
+.copyright{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+}
+.top {
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+.item ul li {
+    list-style: none;
+
+}
+
+.item ul li a {
+    padding: 1.438rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    height: 10vh;
+}
+h3 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+strong {
+    color: #000;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.container {
+    height: 100vh;
+    background-image: url("../pictures/school-building111sky222.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    padding: 0.5rem;
+    font-size: 4rem;
+}
+
+.start {
+    padding: 1rem;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.welcome {
+    background-color: rgb(255, 255, 255, 0.5);
+    text-shadow: 2px 2px rgb(0, 0, 128);
+    border-radius: 1rem;
+    color: rgb(128, 0, 128);
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    /* background-color: black; */
+    background-color: #1d1d36;
+    color: #fff;
+    margin-top: 0.9rem;
+    height: 4em;
+    width: 9.6em;
+}
+
+.btn:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+    color: #000;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* grid*/
+
+.container-1 {
+    /* position: relative; */
+    /* margin: 0.313rem 0.313rem; */
+
+    display: grid;
+    /* grid-template-picture-rows: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
+    /* width:100%; */
+    height: fit-content;
+}
+
+.picture-element {
+    /* aspect-ratio: 551 / 413.25; */
+    aspect-ratio: 413.25 / 551;
+    height: 50vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: inherit; */
+}
+/* .picture-row1{
+    flex-basis: 40vw;
+} */
+/* .grid-img { */
+/* background-image: url("../class-group.jpg"); */
+/* background-repeat: no-repeat; */
+/* background-size: 650px; */
+/* grid-column-start: 1; */
+/* grid-column-end: 3; */
+/* grid-picture-row: 1; */
+/* } */
+.grid-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 50%; */
+
+}
+
+.grid-img img {
+    flex-grow: 1;
+    /* width: inherit; */
+}
+
+.grid-txt {
+    padding: 0.938rem;
+    /* align-items: center; */
+    /* height: 65vh; */
+    min-height: 50vh;
+    text-align: center;
+    color: #fff;
+    background-color: #1d1d36;
+    /* grid-column-start: 3; */
+    /* grid-column-end: 5; */
+    /* grid-picture-row: 1; */
+}
+
+
+.element {
+    margin-top: 1rem;
+}
+
+.element-grid {
+    display: block;
+}
+
+/* .grid-txt2 { */
+/* padding: 0.375rem; */
+/* text-align: center; */
+/* align-items: center; */
+/* height: 65vh; */
+/* color: #fff; */
+/* background-color: #1d1d36; */
+/* grid-column-start: 1; */
+/* grid-column-end: 3; */
+/* grid-picture-row: 2; */
+/* } */
+
+/* .grid-img2 { */
+/* background-image: url("grp.jpg");
+    background-repeat: no-repeat;
+    background-size: 650px;
+    grid-column-start: 3;
+    grid-column-end: 5; */
+/* grid-picture-row: 2; */
+/* } */
+
+.list {
+    /* text-align: left; */
+    text-align: justify;
+    padding-left: 0.313rem;
+}
+
+/* grid end */
+
+.para {
+    /* margin: 3px 12rem; */
+    width: 80vw;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+.safety-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(252 186 99);
+    /* align-items: center; */
+}
+.picture-row img{
+    margin: 0.2rem;
+}
+
+/* .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+    text-align: justify;
+    position: relative;
+} */
+
+/* .para-2 {
+    padding: 76px;
+    align-items: center;
+    height: 76vh;
+    color: white;
+    background-color: #1d1d36;
+} */
+
+/* .para-3 {
+    padding: 76px;
+    align-items: center;
+    height: 76vh;
+    color: white;
+    background-color: #1d1d36;
+} */
+
+/* img {
+    position: relative;
+    top: 5px;
+} */
+
+.span {
+    font-size: 1.9rem;
+    background-color: rgb(181, 171, 153);
+}
+
+.culture {
+    color: #fff;
+    /* background-color: #5c5adb; */
+}
+
+.picture-row {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#btn-1 {
+    border: none;
+    margin: 0 auto;
+    padding: 0.82rem;
+    background-color: #5c5adb;
+    color: #fff;
+}
+
+#btn-1:hover {
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgb(225, 225, 225);
+    color: black;
+
+}
+
+#btn-2 {
+    border: none;
+    margin: 0 auto;
+    padding: 0.82rem;
+    background-color: #5c5adb;
+    color: #fff;
+}
+
+#btn-2:hover {
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgb(225, 225, 225);
+
+}
+
+.signup-para {
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 15px;
+}
+
+.signup-box {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 2.9vh;
+    margin: 0.2rem 1rem 3rem 1rem;
+}
+
+input[type=text] {
+    padding: 1rem;
+    border: none;
+    background: #f1f1f1;
+}
+
+#btn-sign {
+    border: none;
+    padding: 0.7rem;
+    color: #fff;
+    background-color: #2d2d2f;
+}
+
+#btn-sign:hover {
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    background-image: linear-gradient(to right, rgb(235, 166, 230), #76e0cc);
+}
+
+.mail {
+    margin-left: 3rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .picture-element {
+        width: 100vw;
+    }
+
+    .order-1 {
+        order: 1;
+    }
+
+    .order-2 {
+        order: 2;
+    }
+
+    .order-3 {
+        order: 3;
+    }
+
+
+    .order-4 {
+        order: 4;
+    }
+}nav {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #1d1d36;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    width: 100vw;
+    margin: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding:1rem 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    transition: all 1s ease;
+    color: rgb(255, 255, 0);
+}
+
+.active{
+    color: rgb(252 186 99);
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(../font/NotoSansNewa-Regular.otf);
+}
+
+main{
+font-size: 1.5rem;
+}
+
+.prachalit{
+   font-family: myFirstFont;
+}
+
+
+.ranjana-school-name{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.ranjana-school-name-word{
+   height: 5rem;
+}
+
+
+
+/* local language local curriculum */
+
+.local-curriculum {
+   font-family: ranjana;
+   color:rgb(251 213 40);
+   padding: 3rem 1rem;
+   text-align: justify;
+   min-height: 65vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.local-curriculum-head {
+   text-align: center;
+   padding: 1rem;
+}
+
+.local-curriculum > p {
+   margin-top: 1rem;
+}
+
+/* local language local curriculum */
+
+
+
+
+
+
+
+
+
+
+
+
+/* nepal bhasa teacher messages */
+
+.message-box {
+   background-color: rgb(127, 157, 225);
+   color: black;
+   /* background-color: rgb(241, 50, 50); */
+   background-color: black;
+   /* border: 1px solid red; */
+   color: rgb(248, 125, 125);
+   /* background-color: black;
+   color: red; */
+   text-align: center;
+   padding: 1rem;
+   margin: 1rem;
+   border-top-right-radius: 1.5rem;
+   border-bottom-left-radius: 1.5rem;
+
+   /* display: flex; */
+}
+
+/* .message-collection {
+   display: flex;
+   flex-wrap: wrap;
+} */
+
+.message {
+   background-color: black;
+   color: rgb(248, 125, 125);
+   border: 1px solid red;
+   margin: 1rem 0.5rem;
+   padding: 1rem;
+   border-top-right-radius: 1.5rem;
+   border-bottom-left-radius: 1.5rem;
+}
+
+
+.pictures{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.photo {
+   height: 30vh;
+   border: 0.14rem solid yellow;
+   border-radius: 50%;
+   aspect-ratio: 14.81 / 14.97;
+}
+
+/* nepal bhasa teacher messages */
+
+.teacher-photo{
+   display: flex;
+   flex-direction: column;
+}
+.content-heading {
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 1rem;
+    color: white;
+}
+
+.color {
+    background-color: rgb(108, 108, 216);
+    color: white;
+}
+
+.grade {
+    border-bottom: 1px solid white;
+    padding: 0.6rem;
+    padding-bottom: 0;
+}
+
+.wrap {
+    font-size: 1.2rem;
+}
+
+.class {
+    margin-left: 1rem;
+    border-left: 1px solid white;
+    padding: 1rem;
+}
+
+.class::before {
+    content: "";
+    border: 0.5rem solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.5rem;
+}
+
+.flex {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.none {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.pictures {
+    height: 20vh;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    margin: 0.5rem auto;
+    align-items: center;
+}
+
+.teacher {
+    height: fit-content;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 5px solid #010101;
+    text-align: center;
+    margin: 1rem;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+ <body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="school-logo"> 
+                <img src="schoollogo.png" class="user-img">
+                <span >School Info</span>
+               <i class="bx bx-menu" id="btn"></i>
+            </div>
+        </div> 
+        
+       
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="bx bxs-home"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-check-square"></i>
+                    <span class="nav-item">Facilities</span>
+                </a>
+                <span class="tooltip">Facilities</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-calendar-event"></i>
+                    <span class="nav-item">Events</span>
+                </a>
+                <span class="tooltip">Events</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-edit-alt"></i>
+                    <span class="nav-item">Nepal Bhasa</span>
+                </a>
+                <span class="tooltip">Nepal Bhasa</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-message-square-dots"></i>
+                    <span class="nav-item">Local Currriculam</span>
+                </a>
+                <span class="tooltip">Local Curriculam</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-devices"></i>
+                    <span class="nav-item">Technical</span>
+                </a>
+                <span class="tooltip">Technical</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-info-circle"></i>
+                    <span class="nav-item">About</span>
+                </a>
+                <span class="tooltip">About</span>            
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="bx bxs-contact"></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+                <span class="tooltip">Contact</span>            
+            </li>
+
+        </ul>
+    </div>
+</body>
+<script>
+    let btn = document.querySelector('#btn')
+    let slider =document.querySelector('.sidebar')
+
+    btn.oneclick= function(){
+        sidebar.classList.toggle('active');
+     };
+    </script>
+</html>
