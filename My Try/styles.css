@@ -1,6 +1,6 @@
 .clearfix:after {
   visibility: hidden;
-  display: block;
+  display: grid;
   font-size: 0;
   content: " ";
   clear: both;
@@ -120,4 +120,11 @@
 }
 .gap{
   padding-right: 6px;
+}
+
+@media only screen and (max-width:250px){
+  .body{
+   height: 90%;
+   width: 90%; 
+  }
 }
